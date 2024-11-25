@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>مؤسسة مجدي يعقوب</title>
+  </head>
+  <body>
+     
+    <header>
+        <a href="#" class="logo" onclick="document.querySelector('#home').style.color='#601cfc'">مجدي يعقوب</a>
+        <nav class="navigation">
+            <a href="#" id="home" onclick="document.querySelector('#home').style.color='#601cfc'">الرئسيه</a>
+            <a href="#services" id="ser" onclick="document.querySelector('#home').style.color='#3a6cf4'">الخدمات</a>
+            <a href="#contact" onclick="document.querySelector('#home').style.color='#3a6cf4'">التواصل</a>
+        </nav>
+
+        <div class="derk">
+            <button id="lit" onclick="lit()"> <i class="fa-solid fa-toggle-off"></i></button>
+            <button id="derk" onclick="derk()"> <i class="fa-solid fa-toggle-on"></i></button>
+        </div>
+    </header>
+
+    <section class="main">
+        <br>
+            <h2>مرحبا بكم في<br> <span>مؤسسة مجدي يعقوب</span></h2>
+            <p>تأسست مؤسسة مجدى يعقوب لأمراض وأبحاث القلب - منظمة خيرية غير حكومية مسجلة في مصر عام 2008 من قبل الدكتور مجدى يعقوب، والراحل الدكتور أحمد زويل والراحل السفير محمد شاكر، كما تدير مؤسسة مجدى يعقوب لأبحاث القلب أحد المشروعات الاستثنائية ذات الأهمية الكبيرة لصحة ورفاهية الشعب</p>
+            <a href="#services" class="min-button">الخدمات</a>
+            <div class="social-icons">
+                <a href="#"  onclick="window.alert('غير متوفر')"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" onclick="window.alert('غير متوفر')"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#" onclick="window.alert('غير متوفر')"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" onclick="window.alert('غير متوفر')"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title">الخدمات</h2>
+
+        <div class="content">
+
+            <div class="card">
+   
+                <img src="img/images.jfif" alt="" style="width:90%;" >
+                <div class="info">
+                    <h3>جراحه قلب</h3>
+                </div>
+            </div>
+
+             <div class="card">
+                <div class="icon2">
+                   <img src="img/download (1).jfif" alt="">
+                </div>
+                <div class="info">
+                    <h3>التبرع بدم</h3>
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+   
+    <section class="card-contact" id="contact">
+        <h2 class="title"> التواصل </h2> 
+
+         <div class="content">
+
+            <div class="card">
+                <div class="icon2">
+                   <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>رقم موبيل</h3>
+                    <p><a class="tel" href="tel:">؟؟؟؟؟؟؟؟؟</a></p> 
+                </div>
+            </div>
+
+             <div class="card">
+                <div class="icon2">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p><a class="emailto" href="mailto:">؟؟؟؟@gmail.com</a></p>
+                </div>
+            </div>
+          </div>
+
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">المطور@ <span>بشار مجدي</span></p>
+        <p class="footer-title">التواصل مع المتور <span><a href="tel:01010445230"> عبر الرقم</a></span></p>
+        <div class="social-icons">
+                <a href="#" onclick="window.alert('غير متوفر')"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" onclick="window.alert('غير متوفر')"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#" onclick="window.alert('غير متوفر')"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" onclick="window.alert('غير متوفر')"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
